@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="294378d5-9c84-4477-9e7f-b477b571cdba" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Qm9OJ4XKuSoL9axVA8gEEEG09j" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Courses\NBAD\FunABounds\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dipesh\Desktop\Courses\NBAD\FunABounds\views" />
+      <recent name="C:\Users\Dipesh\Desktop\Courses\NBAD\FunMeet\views" />
+      <recent name="C:\Users\Dipesh\Desktop\Courses\NBAD\FunMeet\Assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="294378d5-9c84-4477-9e7f-b477b571cdba" name="Default Changelist" comment="" />
+      <created>1568364870055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568364870055</updated>
+      <workItem from="1568364871149" duration="8737000" />
+      <workItem from="1568617416165" duration="12072000" />
+      <workItem from="1568676198866" duration="672000" />
+      <workItem from="1569261051173" duration="57000" />
+      <workItem from="1569822129988" duration="418000" />
+      <workItem from="1570347327295" duration="85000" />
+      <workItem from="1570727140602" duration="1705000" />
+      <workItem from="1570728859584" duration="24406000" />
+      <workItem from="1570827425694" duration="735000" />
+      <workItem from="1570849721055" duration="1371000" />
+      <workItem from="1571292019868" duration="621000" />
+      <workItem from="1572549781053" duration="10013000" />
+      <workItem from="1572970843529" duration="22838000" />
+      <workItem from="1573097809490" duration="22527000" />
+      <workItem from="1573260707267" duration="10422000" />
+      <workItem from="1573411184752" duration="151000" />
+      <workItem from="1573587707678" duration="21290000" />
+      <workItem from="1573780434726" duration="1503000" />
+      <workItem from="1574120333901" duration="13323000" />
+      <workItem from="1574189470585" duration="30018000" />
+      <workItem from="1575352839098" duration="12506000" />
+      <workItem from="1575500069692" duration="37802000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

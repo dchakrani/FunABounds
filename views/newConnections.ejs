@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FunMeet</title>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/styles.css">
+    <script src="Assets/JavaScript/myscripts.js"></script>
+</head>
+<body>
+<%- include('partials/header.ejs', {login: login}) %>
+<div class="main">
+    <%- include('partials/navigation.ejs', {login: login, user: user})  %>
+    <div id="main-forms">
+        <h2>New Connection</h2><br><br>
+        <form id="new-connection-form" method="POST" action="/newConnectionInfo">
+            Topic:
+            <input type="text" name="category" placeholder="category">
+            <br><br><br>
+            Name:
+            <input type="text" name="title" placeholder="title">
+            <br><br><br>
+            Details:
+            <input type="text" name="details" placeholder="details">
+            <br><br><br>
+            Where:
+            <input type="text" name="location" placeholder="location">
+            <br><br><br>
+            When:
+            <input type="date" name="dateandtime">
+            <br>
+            <br><br>
+            <input id="newConnectionsSubmit" type="submit" value="Create Connection">
+        </form>
+    </div>
+</div>
+<% include partials/footer.ejs %>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FunMeet</title>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/styles.css">
+    <script src="Assets/JavaScript/myscripts.js"></script>
+</head>
+<body>
+<%- include('partials/header.ejs', {login: login}) %>
+<div class="main">
+    <%- include('partials/navigation.ejs', {login: login, user: user})  %>
+    <div id="connectionMain">
+        <div id="left-main">
+            <% connection_data.forEach(function(item){ %>
+                <h2><%= item.title %></h2>
+<!--                <p><img id="connectionImage" src="Assets/Images/<%= item.id %>.jpg" alt="NormImage">-->
+                <p><img id="connectionImage" src="Assets/Images/Norm.png" alt="NormImage">
+                    Hosted by: Norm Niner <br><br><br><br>
+                    <%= item.dateandtime %>
+                    <br><br><br><br>
+                    <%= item.location %>
+                </p>
+        </div>
+        <div id="right-main">
+            <p>Are you going? 3 people going</p>
+            <a class="btn" href="/savedConnection?action=add&rsvp=Yes&id=<%= item.id %>">Yes</a>&nbsp;
+            <a class="btn" href="/savedConnection?action=add&rsvp=No&id=<%= item.id %>">No</a>&nbsp;
+            <a class="btn" href="/savedConnection?action=add&rsvp=Maybe&id=<%= item.id %>">Maybe</a>
+        </div>
+        <p id="details">
+        <h2>Details</h2>
+        <%= item.details %>
+        <% }); %>
+    </div>
+</div>
+<% include partials/footer.ejs %>
+</body>
+</html>

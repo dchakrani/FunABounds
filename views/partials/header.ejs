@@ -1,0 +1,18 @@
+<header class="banner">
+    <a href="/index"><img id="imageLogo" src="Assets/Images/Logo-clear-sm-1024x469.png" alt="FunMeet"></a>
+    <!--        <a src="/" id="logo">FunMeet</a>-->
+    <nav id="userNav">
+        <ul>
+            <li><a href="/newConnections">Start a new connection</a></li>
+            <% if ( login === true ) { %>
+<!--                <li><a href="/newConnections">Start a new connection</a></li>-->
+                <li><a href="/savedConnection?action=login">My connections</a></li>
+                <li><a href="/logout">Logout</a></li>
+            <% }else{ %>
+<!--                <li><a href="/savedConnection?action=login">Start a new connection</a></li>-->
+                <li><a href="/login">Login</a></li>
+                <li><a href="/userSignUp">Sign Up</a></li>
+            <% } %>
+        </ul>
+    </nav>
+</header>

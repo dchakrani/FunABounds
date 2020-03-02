@@ -1,0 +1,11 @@
+<nav id="siteNav">
+    <ul>
+        <li><a href="/index">Home</a></li>
+        <li><a href="/connections">Connections</a></li>
+        <% if ( login === true ) { %>
+        <li><a id="userPlaceHolder" href="">Hi, <%= user %></a></li>
+        <% } %>
+    </ul>
+</nav>
+
+<!-- id="selectedMenu" -->

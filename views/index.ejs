@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FunMeet</title>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/styles.css">
+    <script src="Assets/JavaScript/myscripts.js"></script>
+</head>
+<body>
+<%- include('partials/header.ejs', {login: login}) %>
+<div class="main">
+    <%- include('partials/navigation.ejs', {login: login, user: user})  %>
+    <p id="main-content">
+        Welcome to my FunABounds. <br/>Here you can join Fun groups for Outdoor Adventure and fitness events<br/>
+        Check out the Connection page for more details <a href="/connections"> here</a>.
+    </p>
+</div>
+<% include partials/footer.ejs %>
+</body>
+</html>

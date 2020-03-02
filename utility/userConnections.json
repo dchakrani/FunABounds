@@ -1,0 +1,34 @@
+[
+  {
+    "category": "Outdoor Adventure",
+    "event": "Hike For Beer",
+    "rsvp": "yes",
+    "eventId" : "uc001",
+    "id" : "oa003",
+    "userID": "uid001"
+  },
+  {
+    "category": "Fitness Events",
+    "event": "Charlotte Runners",
+    "rsvp": "no",
+    "eventId" : "uc002",
+    "id" : "fe001",
+    "userID": "uid001"
+  },
+  {
+    "category": "Outdoor Adventure",
+    "event": "Hike For Beer",
+    "rsvp": "yes",
+    "eventId" : "uc003",
+    "id" : "oa003",
+    "userID": "uid002"
+  },
+  {
+    "category": "Fitness Events<",
+    "event": "Charlotte Runners",
+    "rsvp": "no",
+    "eventId" : "uc004",
+    "id" : "fe001",
+    "userID": "uid002"
+  }
+]

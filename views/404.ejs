@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>404</title>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/styles.css">
+</head>
+<body>
+<%- include('partials/header.ejs', {login: login}) %>
+<div class="main-content-404">
+    <%- include('partials/navigation.ejs', {login: login}) %>
+    <div id="PageNotFound">
+        <h1>404, oops!</h1>
+        <p>Something went wrong.....</p>
+        <p>Please Login Again.....</p>
+    </div>
+</div>
+<% include partials/footer.ejs %>
+</body>
+</html>

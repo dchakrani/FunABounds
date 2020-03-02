@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FunMeet</title>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/styles.css">
+    <script src="Assets/JavaScript/myscripts.js"></script>
+</head>
+<body>
+<%- include('partials/header.ejs', {login: login}) %>
+<div class="main">
+    <%- include('partials/navigation.ejs', {login: login, user: user})  %>
+    <div id="main-forms">
+        <p id="error"><strong><%= message %></strong></p>
+        <h2>Sign Up</h2><br>
+        <form id="new-connection-form" method="POST" action="/login">
+            First Name:
+            <input type="text" name="firstName" placeholder="First Name">
+            <br><br><br>
+            Last Name:
+            <input type="text" name="lastName" placeholder="Last Name">
+            <br><br><br>
+            Email:
+            <input type="text" name="email" placeholder="Email">
+            <br><br><br>
+            Password:
+            <input type="password" name="password" placeholder="Password">
+            <br><br><br>
+            <input id="signUpSubmit" type="submit" value="Sign Up">
+        </form>
+    </div>
+</div>
+<% include partials/footer.ejs %>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FunMeet</title>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/styles.css">
+    <script src="Assets/JavaScript/myscripts.js"></script>
+</head>
+<body>
+<%- include('partials/header.ejs', {login: login}) %>
+<div class="main">
+    <%- include('partials/navigation.ejs', {login: login, user: user})  %>
+    <div id="main-about">
+        <br><br><br><br><br><br><br><br>
+        <h1>About us!</h1><br><br>
+        <h3>We connect </h3>
+        <h3>Like minded people</h3>
+    </div>
+</div>
+<% include partials/footer.ejs %>
+</body>
+</html>

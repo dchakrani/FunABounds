@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FunMeet</title>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/styles.css">
+    <script src="Assets/JavaScript/myscripts.js"></script>
+</head>
+<body>
+<%- include('partials/header.ejs', {login: login}) %>
+<div class="main">
+    <%- include('partials/navigation.ejs', {login: login, user: user})  %>
+    <div id="connectMain">
+
+        <% unique_category.forEach(function(category){ %>
+            <h2><%= category %></h2>
+            <ul>
+                <% connection_data.forEach(function(item){ %>
+                    <% if(item.category == category){ %>
+                        <li>
+                            <a class="eventList" href="connection?id=<%= item.id %>">
+                                <%= item.title %>
+                            </a>
+                        </li>
+                <% }}); %>
+            </ul>
+            <br>
+        <% }); %>
+    </div>
+</div>
+<% include partials/footer.ejs %>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FunMeet</title>
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/styles.css">
+    <script src="Assets/JavaScript/myscripts.js"></script>
+</head>
+<body>
+<%- include('partials/header.ejs', {login: login}) %>
+<div class="main">
+    <%- include('partials/navigation.ejs', {login: login , user : user}) %>
+    <div id="saveConnectionMain">
+        <h3>Norm's Connections</h3>
+        <table>
+            <tr>
+                <th>Connection</th>
+                <th>Category</th>
+                <th>Going?</th>
+                <th>Events</th>
+            </tr>
+            <% savedConnection_data.forEach(function(savedConnection){ %>
+                <tr>
+
+                    <td><%= savedConnection.event %></td>
+                    <td><%= savedConnection.category %></td>
+                    <td><%= savedConnection.rsvp %></td>
+                    <td>
+                        <a class="btn" href="connection?id=<%= savedConnection.id %>">Update</a>
+                        <a class="btn" href="/savedConnection?action=delete&id=<%= savedConnection.id %>">Delete</a>
+                    </td>
+                </tr>
+            <% }); %>
+        </table>
+    </div>
+</div>
+<% include partials/footer.ejs %>
+</body>
+</html>
